@@ -17,6 +17,6 @@ function generateQuote(){
     quoteElement.innerHTML = quote;
     usedIndexes.add(randomIdx)
     break
-}
+}  
 
 }
