@@ -31,3 +31,13 @@ function generateQuote() {
         break; //Exit the loop after displaying the quote
     }
 }
+
+/*Thought Process Summary
+1. Understand Requirements: Determine the need to display quotes randomly and avoid repetitions.
+2. Plan Data Structure: Use an array for quotes and a set for tracking displayed quotes.
+3. Design the Function:
+- Handle resetting of the tracking set.
+- Ensure unique quote selection.
+- Update the display with the selected quote.
+- Mark the quote as used.
+4. Implement and Test: Write the code following the designed steps and test to ensure it meets requirements.*/
